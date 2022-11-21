@@ -1,0 +1,72 @@
+-------------font-family-----------
+
+ font-family: 'Times New Roman', Times, serif; : you can choose any font you need from google fonts.
+ 
+ -------------font-size-----------
+font-size: 40px; >> to change font size
+
+ -------------font-varient , weight-----------
+font-variant: small-caps;
+ font-weight: bold;
+ 
+ -------------mouse cursor-----------
+ cursor: pointer;  >> to change the type of cursor , try another types.
+ 
+  -------------table styling-----------
+  >>>>>html code<<<<<
+<body>
+    <table>
+      <thead>
+        <tr>
+          <td>Name</td>
+          <td>Age</td>
+          <td>Email</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Osama</td>
+          <td>38</td>
+          <td>o@nn.sa</td>
+        </tr>
+        <tr>
+          <td>Ahmed</td>
+          <td>38</td>
+          <td>o@nn.sa</td>
+        </tr>
+        <tr>
+          <td>Sayed</td>
+          <td>38</td>
+          <td>o@nn.sa</td>
+        </tr>
+        <tr>
+          <td>Ali</td>
+          <td>38</td>
+          <td>o@nn.sa</td>
+        </tr>
+      </tbody>
+    </table>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+==========css code===========
+body {
+  font-family: Arial, Helvetica, sans-serif;          >>> to change font family
+}
+table {              : this for all aitems in the table
+  width: 100%;
+  border: 1px solid #CCC;
+  border-spacing: 0;
+}
+table td {             : this for each cell in the table
+  padding: 15px;
+  background-color: #EEE;
+  border: 1px solid #CCC;
+}
+table thead td {            : this is just for the head
+  background-color: #f44336;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+  border-color: #F35246;
+}
+
+ 
