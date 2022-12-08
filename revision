@@ -1,0 +1,111 @@
+/* background 
+/* div {
+  background-color: red; /* Color Name 
+  background-color: rgb(0 0 0 / 50%); /* Red, Green, Blue, Alpha Channel 
+  background-color: #FF0000;  Color Hex Code 
+    background-image: url("../imgs/learn-programming.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+    background-size: auto;
+} */
+
+/* ------------------------------------------------------ */
+
+/* padding , margin  */
+
+/* ------------------------------------------------------ */
+/* border */
+ /* div {
+    border-width: 10px;
+    border-color: red;
+    border-style: solid;
+    border: 10px solid red;
+}    */
+/* ---------------------------------------------------------- */
+/* display */
+/* Block *
+
+    - Take Full Width If No Width
+    - Add Line Break
+    - Respect Padding, Margin, Width, Height
+
+    Inline
+
+    - Do Not Repsepct Width, Height
+    - Respect Padding And Margin [ Just Wight + Left ]
+    - Do Not Add Line Break
+    - Allow Elements Before And After It in The Same Line
+
+    Inline-Block
+
+    - Allow Elements Before And After It in The Same Line
+    - Respect Padding, Margin, Width, Height
+
+*/
+/* .first {
+    visibility: hidden;
+} */
+/* -------------------------------------------------------- */
+/* grouping */
+/* nesting */
+/* div .special {
+    color: red;
+} */
+/* --------------------------------------------------------------- */
+/* overflow */
+/* div {
+    background-color: #f9f9f9;
+    text-align: center;
+    direction: ltr;
+}
+img {
+    vertical-align:bottom;
+} */
+
+/* ------------------------------------------------- */
+/* text direction , transform */
+/* div {
+    background-color: #f9f9f9;
+    word-spacing: 10px;   
+} */
+/* ----------------------------------------------------- */
+/* cursor: pointer; */
+/* --------------------------------------------------------------- */
+/* table styling */
+/* body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+table {
+  width: 100%;
+  border: 1px solid #CCC;
+  border-spacing: 0;
+}
+table td {
+  padding: 15px;
+  background-color: #EEE;
+  border: 1px solid #CCC;
+}
+table thead td {
+  background-color: #f44336;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+  border-color: #F35246;
+}*/
+/* div {
+  
+} */
+/* table {
+  background-color: #eee;
+  
+  width: 100%;
+}
+table td {
+  padding: 15px;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+table thead td {
+  text-align: center; 
+}*/
