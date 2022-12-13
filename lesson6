@@ -1,8 +1,12 @@
-opicty >> شفافيه للمحتوي كاملا
+/*
+    inherit
+    opicty >> شفافيه للمحتوي كاملا
     ----------------
     position
     relative >>>> بيتحرك لوحده
+
     absoulte >>> بيطلع برا ال work flow وباقي العناصر بتعتبره مش موجود
+    وبتالي اقدر احركه في اي مكان من غير ميأثر علي باقي العناصر
     fixed
     sticky >>> top 0;
     z-index >>> للتحكم في الطبقات اعلي رقم بيكون ف الاول
@@ -17,7 +21,7 @@ opicty >> شفافيه للمحتوي كاملا
   background-color: red;
   left: 20px;
   top: 20px;
-  z-index: 3;
+  z-index: 3;>>>>عشان يكون اعلي طبقه
 }
 .two {
   background-color: green;
