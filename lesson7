@@ -1,0 +1,73 @@
+/* 
+before , after 
+    note <<< dont forget content "" >>>
+    note <<<dont forget position >>>
+    ex= .one::after {
+    .one::before {
+
+border radius
+    border-top-left-
+
+box shadow
+
+box-sizing : box-content(default) , border-box
+
+transition 
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    transition-property: width;
+    
+===========================================================================================
+ */
+ /* .parent {
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  .one {
+    background-color: #eee;
+    padding: 10px;
+    width: 600px;
+    float: left;
+    position: relative;
+  }
+  
+  .user {
+    background-color: #eee;
+    width: 50px;
+    margin-right: 20px;
+    padding: 10px;
+    height: 55.5px;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+  }
+.one::after {
+    content: " ";
+    position: absolute;
+    width:5px ;
+    height: 100%;
+    background-color: aqua;
+    right: 0px;
+}
+.one::before {
+    content: "";
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent green transparent transparent;
+    left: 0px;
+    top: 50%;
+
+} */
+div{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin: 20px auto;
+  box-sizing: border-box;
+  transition-duration: 1s;
+  transition-property: width;
+}
+div:hover{
+  width: 250px;
+  height: 250px;
+}
